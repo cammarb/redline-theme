@@ -1,0 +1,21 @@
+{
+  "name": "redline-theme",
+  "displayName": "RedLine Theme",
+  "description": "Theme inspired in the RedLine icon pack for Android",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RedLine Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RedLine-theme-color-theme.json"
+      }
+    ]
+  }
+}
